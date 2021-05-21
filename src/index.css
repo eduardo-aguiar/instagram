@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@variants hover, group-hover {
+  .scale15 {
+    transform: scale(1.5);
+    transition: transform 5s;
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+}

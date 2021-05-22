@@ -7,6 +7,8 @@ import './index.css';
 const Login = lazy(() => import('./pages/login'));
 const Layout = lazy(() => import('./pages/layout'));
 const TailwindYt = lazy(() => import('./pages/tailwindyt'));
+const Aivan = lazy(() => import('./components/aivan'));
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path={ROUTES.LOGIN} component={Login} />
         <Route path={ROUTES.TAILWIND} component={Layout} />
         <Route path={ROUTES.TAILWINDYT} component={TailwindYt} />
+        <Route path={ROUTES.DASHBOARD} component={Aivan} />
       </Switch>
      </Suspense>
    </Router>

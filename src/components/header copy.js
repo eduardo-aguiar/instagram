@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom"
 
-const Header = ({
+const Header2 = ({
     ...otherProps
 }) => {
     const [active, setActive] = useState(false);
@@ -65,4 +65,4 @@ const Header = ({
     )
 }
 
-export default Header;
+export default Header2;

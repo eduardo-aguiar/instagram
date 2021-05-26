@@ -5,7 +5,7 @@ const TailwindYt = () => {
         <div className="card group text-2xl flex flex-col shadow-lg bg-white lg:w-3/6 xl:w-4/12 mx-2 mt-4
         " style={{maxWidth: "485px"}}>
             <div className="image-data relative z-20 h-96 overflow-hidden">
-                <div className="h-full w-full absolute top-0 left-0 bg-cover z-0 group-hover:scale15"
+                <div className="h-full w-full absolute top-0 left-0 bg-cover z-0 group-hover:scale15 focus:scale15"
                     style={{ backgroundImage: "url(/card-image.jpg)" }}
                 >
                     

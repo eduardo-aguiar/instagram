@@ -7,7 +7,7 @@ import './index.css';
 const Login = lazy(() => import('./pages/login'));
 const Layout = lazy(() => import('./pages/layout'));
 const TailwindYt = lazy(() => import('./pages/tailwindyt'));
-const Aivan = lazy(() => import('./components/aivan'));
+const Aivan = lazy(() => import('./components/gallery'));
 
 
 function App() {

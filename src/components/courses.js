@@ -12,7 +12,7 @@ const Courses = () => {
                             </div>
                         
                     <div className=" flex rounded-lg h-64 overflow-hidden relative" >
-                        <img alt="content" className="object-cover relative object-center h-full w-full" src="curso.jpg"/>
+                        <img alt="content" className="object-cover relative object-center h-full w-full" src="/curso.jpg"/>
                         <div class="px-8 py-10 absolute border-4 w-full h-full border-gray-200 bg-black bg-opacity-60 opacity-0 hover:opacity-100 cursor-pointer">
                             <h2 class="tracking-widest text-sm title-font font-extrabold text-green-200 mb-1">12 - 13 de Junho</h2>
                             <h1 class="title-font text-lg font-medium text-white mb-3">Morro do Ferro/MG</h1>

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const Courses = () => {
 
     return (
-        <section className="text-gray-600 body-font mt-16 pt-10">
+        <section className="text-gray-600 body-font pt-10">
             <div className="container px-5 mx-auto flex flex-col">
                     <div className="lg:w-4/6 mx-auto">
-                    <div className="flex flex-col items-center text-center justify-center">
+                    <div className="flex flex-col items-center text-center justify-center md:mt-24">
                             <h2 className=" mt-1 md:mt-4 md:mb-2.5 text-gray-900 text-2xl md:text-4xl font-semibold">Cursos ministrados pela Nativa Lab</h2>
                             <div className="w-52 h-1 bg-green-500 rounded mt-3 mb-8 md:mb-8 "></div>
                             </div>

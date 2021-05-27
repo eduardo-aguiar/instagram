@@ -15,8 +15,8 @@ module.exports = {
                }
         },
         animation: {
-            ani: 'ani 0.75s ease-out 4s forwards',
-            ani2: 'ani 2s ease-out 6s forwards',
+            ani: 'ani 0.75s ease-out 2.5s forwards',
+            ani2: 'ani 2s ease-out 4s forwards',
         },
         fontFamily: {
           poppins: ['Poppins']

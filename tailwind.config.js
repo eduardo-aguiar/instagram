@@ -1,44 +1,42 @@
-const plugin = require('tailwindcss/plugin')
-
-
+const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-        keyframes: {
-            ani: {
-                '100%': {
-                    opacity: '1'
-                }
-               }
+      keyframes: {
+        ani: {
+          "100%": {
+            opacity: "1",
+          },
         },
-        animation: {
-            ani: 'ani 0.75s ease-out 2.5s forwards',
-            ani2: 'ani 2s ease-out 4s forwards',
-        },
-        fontFamily: {
-          poppins: ['Poppins']
-        }
+      },
+      animation: {
+        ani: "ani 0.75s ease-out 2.5s forwards",
+        ani2: "ani 2s ease-out 4s forwards",
+      },
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
     },
-},
+  },
   variants: {
-      scale: ['group-hover'],
+    scale: ["group-hover"],
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    plugin(function({ addUtilities }) {
+    require("@tailwindcss/typography"),
+    plugin(function ({ addUtilities }) {
       const newUtilities = {
-        '.scale15': {
-          transform: 'scale(1.5)',
+        ".scale15": {
+          transform: "scale(1.5)",
         },
-        '.skew-15deg': {
-          transform: 'skewY(-15deg)',
+        ".skew-15deg": {
+          transform: "skewY(-15deg)",
         },
-      }
+      };
 
-      addUtilities(newUtilities)
+      addUtilities(newUtilities);
     }),
   ],
-}
+};

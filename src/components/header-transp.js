@@ -62,10 +62,11 @@ const Header2 = ({ ...otherProps }) => {
                 aria-hidden="true"
               ></i>
               <Link
-                className="flex w-full text-base uppercase group-hover:text-green-400 cursor-pointer mx-3 mt-2 md:font-bold 
-                        "
+                className="flex w-full text-base uppercase group-hover:text-green-400 cursor-pointer mx-3 mt-2 md:font-bold"
+                to="/quem"
+                replace
               >
-                Bio
+                Time
               </Link>
             </li>
             <li

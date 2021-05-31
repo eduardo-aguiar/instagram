@@ -10,6 +10,7 @@ const Layout = lazy(() => import("./pages/layout"));
 const TailwindYt = lazy(() => import("./pages/tailwindyt"));
 const Aivan = lazy(() => import("./pages/homepage"));
 const Contato = lazy(() => import("./pages/contato"));
+const QuemSomos = lazy(() => import("./pages/quemsomos"));
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path={ROUTES.TAILWIND} component={Layout} />
               <Route path={ROUTES.TAILWINDYT} component={TailwindYt} />
               <Route path={ROUTES.CONTACT} component={Contato} />
+              <Route path={ROUTES.QUEMSOMOS} component={QuemSomos} />
               <Route path={ROUTES.DASHBOARD} component={Aivan} />
             </Switch>
           </ScrollToTop>

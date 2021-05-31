@@ -6,7 +6,7 @@ import Projects from "../components/projects";
 
 const Homepage = () => {
   return (
-    <div className="min-h-screen h-screen bg-gray-200">
+    <div className="min-h-screen h-screen">
       <Gallery className="h-2/3 " />
       <Courses />
       <Projects />

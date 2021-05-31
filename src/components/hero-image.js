@@ -1,6 +1,6 @@
 import Header2 from "./header-transp";
 
-const HeroImage = () => {
+const HeroImage = ({ ...otherProps }) => {
   return (
     <div className=" bg-gray-100 font-body h-full">
       <div className=" flex flex-col" style={{ height: "512px" }}>
@@ -15,13 +15,13 @@ const HeroImage = () => {
         >
           <Header2 />
 
-          <div className="mt-56">
+          <div className="mt-72">
             <h1
               className="
-                                        relative px-2.5 m-auto text-white uppercase z-10 text-3xl text-center md:text-5xl mb-3 font-poppins font-medium opacity-80
+                                        relative px-2.5 m-auto text-white uppercase z-10 text-3xl text-center md:text-5xl mb-2 font-mono font-medium
                                         "
             >
-              Entre em contato
+              {otherProps.title}
             </h1>
           </div>
 

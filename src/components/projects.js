@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <section className="text-gray-600 body-font  bg-gray-200">
+    <section className="text-gray-600 body-font  bg-gray-200 overflow-hidden">
       <div className="container px-5 py-4 mx-auto">
         <div className="flex flex-wrap w-full mb-28">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -16,7 +16,7 @@ const Projects = () => {
             Japão e na China, onde esse material é abundante.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 mt-16">
           <div className="xl:w-1/4 md:w-1/2 md:p-2 p-4 mb-20 mx-auto">
             <div className="bg-white bg-opacity-70 p-6 pt-4 rounded-lg  shadow-2xl">
               <img

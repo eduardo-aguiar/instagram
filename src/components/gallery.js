@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <div className="items-center justify-center overflow-hidden h-2/3 w-screen">
       <Header2 className=" z-50 absolute" />
-      <div className="mt-48 md:mt-96 flex flex-col text-center p-1 ">
+      <div className="mt-48 md:mt-40 lg:mt-96 flex flex-col text-center p-1 ">
         <div className=" z-30 p-2 text-lg md:text-4xl   text-white text-opacity-100 opacity-0 rounded-xl animate-ani  font-poppins tracking-wide">
           Construções de bamboo, projetos & produtos
         </div>
